@@ -20,16 +20,44 @@ body{
 }
 
 
-@media (min-width: 1920px) and (min-height: 1080px) {
+@media (max-width: 1920px) and (max-height: 1080px){
+
+.x{
+  padding-top: 150px;
+}
 
 a{
   text-decoration: none;
+  text-decoration: none;
+  color: white;
 }
 
+.Center{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  
+}
+
+p{
+  font-size: 20px;
+  font-family:Beatrix;
+}
 
 }
 
 @media (max-width: 1600px) and (max-height: 900px){
+
+.x{
+  padding-top: 110px;
+}
 
 a{
   text-decoration: none;
@@ -55,5 +83,66 @@ p{
 }
 
 }
-  
 
+@media (max-width: 1366px) and (max-height: 768px){
+
+}
+
+@media (max-width: 1280px) and (max-height: 720px){
+
+a{
+  text-decoration: none;
+  color: white;
+}
+  
+.Center{
+  display: flex;
+  justify-content: center;
+  
+}
+  
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+  
+p{
+  font-size: 20px;
+  font-family:Beatrix;
+}
+  
+}
+
+@media(max-width: 720px) and (max-height: 480px){
+
+a{
+  text-decoration: none;
+  color: white;
+}
+  
+.Center{
+  display: flex;
+  justify-content: center;
+  
+}
+  
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+  
+p{
+  font-size: 20px;
+  font-family:Beatrix;
+}
+  
+}
+
+/* MOBILE */
+@media (max-width: 320px) and (max-height: 240px){
+
+}
