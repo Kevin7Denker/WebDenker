@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+  background-color: black;
+  
+}
+
+@font-face {
+  font-family: Aniyah;
+  src: url('/Script/Fontes/Aniyah.otf');
+}
+
+@font-face {
+  font-family: Beatrix;
+  src: url('/Script/Fontes/BeatrixAntiqua-Bold\ Trial.ttf');
+}
+
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+
+a{
+  text-decoration: none;
+}
+
+
+}
+
+@media (max-width: 1600px) and (max-height: 900px){
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.Center{
+  display: flex;
+  justify-content: center;
+
+}
+
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+p{
+  font-size: 20px;
+  font-family:Beatrix;
+}
+
+}
+  
+
