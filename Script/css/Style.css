@@ -57,25 +57,6 @@ p{
   font-family:Beatrix;
 }
 
-.gridContainer{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 0px;
-  /*background-color: rgba(0, 0, 0, 0.7);*/
-}
-
-.gridItem{
-  display: flex;
-  /*background-color: rgba(0, 0, 0, 0);*/
-  padding: 150px;
-  /*border: 1px solid pink;*/
-  justify-content: center;
-  
-}
-
-.container{
-  text-align: center;
-}
 
 }
 
@@ -115,6 +96,39 @@ p{
 /* VAZIO */
 @media (max-width: 1366px) and (max-height: 768px){
 
+img{
+  position: absolute;
+}  
+
+.x{
+  padding-top: 150px;
+}
+  
+a{
+  text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+  
+.Center{
+  display: flex;
+  justify-content: center;
+}
+  
+.center{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin: 0px;
+  padding: 0px; 
+}
+  
+p{
+  font-size: 20px;
+  font-family:Beatrix;
+}
+  
 }
 
 /*( Necessita Revisao)*/
