@@ -95,7 +95,7 @@ p{
 
 /* POLAROID */ 
 
-.polaroid{
+div.polaroid{
   width: 100%;
   background-color: #ffff;
   box-shadow: 5px 5px 5px 6px rgba(0,0,0,0.3), 0 6px 20px 0p rgba(0,0,0,0.18);
@@ -103,18 +103,20 @@ p{
   border-radius: 5px; 
 }
 
-.containerPolaroid{
+div.containerPolaroid{
   text-align: center;
   padding:  5px 10px;
   font-size: 15PX;
   font-family: Aniyah;
 }
 s
+
 .flexSobre{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly ;
-  
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 }
