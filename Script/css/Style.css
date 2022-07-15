@@ -81,6 +81,10 @@ a{
 
 }
 
+.ImgSobre{
+  padding-right: 50px;
+}
+
 .center{
   display: flex;
   flex-direction: row;
@@ -107,37 +111,66 @@ pre{
 .Sobre{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   
 }
 
-.ImgSobre{
+.bigName{
+  font-size: 90px;
+  margin: 20px;
+  margin-left: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
+#my{
+  color: white;
+  font-size: 14px;
+  margin: 30px;
+  font-family: cursive;
+  padding-top: 20px;
+}
+
+.textoSobre{
+  display: flex;
+}
+
+img{
+  border-radius: 5px;
+}
+
+.ImgSobre{
+  padding-top: 100px;
 }
 
 .polaroid {
   width: 80%;
   background-color: white;
   margin-left: 20px;
-  margin-bottom: 20px;
   text-align: center;
   padding-top: 20px;
   float: right;
   margin: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .container {
   text-align: center;
   font-size: 15px;
- 
 }
 
 .back{
   color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: Aniyah;
-  padding-bottom: 60px;
 }
 
+
+
 }
+
 
 
 /* VAZIO */
@@ -208,10 +241,6 @@ p{
 img{
   max-width: 350px;
   max-height: 350px;
-}
-
-.back{
-  color:black;
 }
 
 }
