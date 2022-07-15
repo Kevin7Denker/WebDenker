@@ -23,7 +23,32 @@ a{
   src: url('/Script/Fontes/BeatrixAntiqua-Bold\ Trial.ttf');
 }
 
-/* MAIN */
+@font-face{
+  font-family: Ananda;
+  src: url(/Script/Fontes/Ananda\ Black\ Personal\ Use.ttf); 
+}
+
+@font-face{
+  font-family: Diamond;
+  src: url(/Script/Fontes/Diamond\ Sparkling.otf); 
+}
+
+@font-face{
+  font-family: Morning;
+  src: url(/Script/Fontes/Morning\ Signature.otf); 
+}
+
+@font-face{
+  font-family: Keep;
+  src: url(/Script/Fontes/KeeponTruckin.ttf); 
+}
+
+@font-face{
+  font-family: Another;
+  src: url(/Script/Fontes/Another\ Danger\ Slanted\ -\ Demo.otf); 
+}
+
+/* SUBMAIN */
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 
 body{
@@ -63,7 +88,7 @@ p{
 
 }
 
-/*( Necessita Revisao)*/
+/* MAIN*/
 @media screen and (max-width: 1600px) and (max-height: 900px){
 
 .x{
@@ -124,10 +149,17 @@ pre{
 
 #my{
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   margin: 30px;
   font-family: cursive;
   padding-top: 20px;
+  font-style:oblique;
+}
+
+pre{
+  font-size: 16px;
+  font-family: cursive;
+
 }
 
 .textoSobre{
@@ -143,7 +175,7 @@ img{
 }
 
 .polaroid {
-  width: 80%;
+  width: 90%;
   background-color: white;
   margin-left: 20px;
   text-align: center;
@@ -167,11 +199,28 @@ img{
   font-family: Aniyah;
 }
 
-
-
+.contatos{
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Ananda;
 }
 
 
+.main{
+  display: flex;
+  flex-direction: row;
+  padding-top: 65px;
+}
+
+.backCont{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+}
 
 /* VAZIO */
 @media screen and (max-width: 1366px) and (max-height: 768px){
