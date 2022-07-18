@@ -48,42 +48,19 @@ a{
   src: url(/Script/Fontes/Another\ Danger\ Slanted\ -\ Demo.otf); 
 }
 
+@font-face {
+  font-family: Insomia;
+  src: url(/Script/Fontes/Insomnia\ 1.ttf);
+}
+
+@font-face {
+  font-family: Blood;
+  src: url(/Script/Fontes/BloodLust.ttf);
+}
+
 /* SUBMAIN */
 @media screen and (max-width: 1920px) and (max-height: 1080px){
 
-body{
-  
-}
-
-.x{
-  padding-top: 150px;
-}
-
-a{
-  text-decoration: none;
-  color: white;
-}
-
-.Center{
-  display: flex;
-  justify-content: center;
-  
-}
-
-.center{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: nowrap;
-  margin: 0px;
-  padding: 0px;
-  
-}
-
-p{
-  font-size: 20px;
-  font-family:Beatrix;
-}
 
 
 }
@@ -119,6 +96,10 @@ a{
   padding: 0;
 }
 
+.buttom{
+  font-family: blood;
+  font-size: 40px;
+}
 
 p{
   font-size: 20px;
@@ -143,8 +124,8 @@ pre{
 .bigName{
   font-size: 90px;
   margin: 20px;
-  margin-left: 70px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 30px;
+  font-family:'Times New Roman', Times, serif;
 }
 
 #my{
@@ -171,7 +152,7 @@ img{
 }
 
 .ImgSobre{
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .polaroid {
@@ -225,16 +206,7 @@ img{
 /* VAZIO */
 @media screen and (max-width: 1366px) and (max-height: 768px){
 
-img{
-  position: absolute;
-}  
-
-.x{
-  padding-top: 150px;
-}
-  
 a{
-  text-decoration: none;
   text-decoration: none;
   color: white;
 }
@@ -242,6 +214,10 @@ a{
 .Center{
   display: flex;
   justify-content: center;
+}
+  
+.ImgSobre{
+  padding-right: 50px;
 }
   
 .center{
@@ -249,106 +225,113 @@ a{
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: nowrap;
-  margin: 0px;
-  padding: 0px; 
+  margin: 0;
+  padding: 0;
 }
+  
   
 p{
   font-size: 20px;
   font-family:Beatrix;
 }
-
-.flexSobre{
+  
+h1{
+  color: #fff;
+}
+  
+pre{
+  color: #fff;
+}
+  
+.Sobre{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+    
+}
   
+.bigName{
+  font-size: 90px;
+  margin: 20px;
+  margin-left: 70px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  
+#my{
+  color: white;
+  font-size: 16px;
+  margin: 30px;
+  font-family: cursive;
+  padding-top: 20px;
+  font-style:oblique;
+}
+  
+pre{
+  font-size: 16px;
+  font-family: cursive;
   
 }
-
+  
 .textoSobre{
-  color: white;
-  font-family: Beatrix;
-  padding-top: 50px;
-  padding-left: 40px;
+  display: flex;
+}
   
-}
-
-.hUm{
-  font-size: 30px;
-}
-
-.pSobre{
-  font-size: 14px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.imagemSobre{
-  position: absolute;
-  padding-top: 55px;
-}
-
 img{
-  max-width: 350px;
-  max-height: 350px;
+  border-radius: 5px;
+}
+  
+.ImgSobre{
+  padding-top: 100px;
+}
+  
+.polaroid {
+  width: 90%;
+  background-color: white;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 20px;
+  float: right;
+  margin: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-}
 
-/*( Necessita Revisao)*/
-@media screen and (max-width: 1280px) and (max-height: 720px){
-
-a{
-  text-decoration: none;
-  color: white;
+.container{
+  text-align: center;
+  font-size: 15px;
+}
+ 
+.back{
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Aniyah;
 }
   
-.Center{
-  display: flex;
-  justify-content: center;
-  
+.contatos{
+  color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Ananda;
 }
   
-.center{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-}
-  
-p{
-  font-size: 20px;
-  font-family:Beatrix;
-}
-  
-}
-
-/*( Necessita Revisao)*/
-@media screen and (max-width: 720px) and (max-height: 480px){
-
-a{
-  text-decoration: none;
-  color: white;
-}
-  
-.Center{
-  display: flex;
-  justify-content: center;
-  
-}
-  
-.center{
+.main{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: nowrap;
+  padding-top: 65px;
 }
   
-p{
-  font-size: 20px;
-  font-family:Beatrix;
+.backCont{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
 }
-  
+   
 }
+
 
 /* MOBILE (VAZIO) */
 @media screen and (max-width: 320px) and (max-height: 240px){
